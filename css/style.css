@@ -12,4 +12,39 @@
     margin-bottom: 40px;
   
 }
+/* main */
+/* container */
+.container{
+    background-color: #edf2f6;
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+/* input button */
+.input-button {
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.search {
+    padding: 5px;
+    border: 1px solid black;
+    border-color: lightgrey;
+    margin: 0 auto;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.add-task {
+   border: 0;
+   background-color: #17aaf5; 
+   width: 100px;
+   height: 30px;
+   color: white;
+   border-radius: 5px;
+}
+/* /input button */
 
+/* /main */
