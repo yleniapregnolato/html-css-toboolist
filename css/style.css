@@ -15,12 +15,13 @@
 }
 /* main */
 /* container */
-.container{
+.container {
     background-color: #edf2f6;
     width: 70%;
     margin: 40px auto;
     text-align: center;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 /* input button */
 .input-button {
@@ -54,10 +55,15 @@ ul {
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
-.precedent {
+.task-list {
+    margin: 40px 40px;
+}
+.precedents {
     padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.7);
 }
 .task-box {
     background-color: white;
@@ -97,7 +103,7 @@ ul {
     border-radius: 25px;
     padding: 5px 10px;
     font-size: 15px;
-    background-color: purple;
+    background-color: #ab5de6;
     color: white;
 }
 
@@ -110,7 +116,7 @@ ul {
     padding: 5px 10px;
     font-size: 15px;
     color: white;
-    background-color: aqua;
+    background-color: #2ac6ab;
 }
 .mobile {
     border-radius: 25px;
@@ -124,14 +130,14 @@ ul {
     padding: 5px 10px;
     font-size: 15px;
     color: white;
-    background-color: pink;
+    background-color: #ec499d;
 }
 .sale {
     border-radius: 25px;
     padding: 5px 10px;
     font-size: 15px;
     color: white;
-    background-color: lightgreen; 
+    background-color: #a2d115; 
 }
 /* /list */
 /* /main */
