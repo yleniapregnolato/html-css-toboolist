@@ -14,7 +14,15 @@
 /* /header */
 
 /* main */
-/* input */
+
+/* input button */
+
+.container {
+    background-color: #edf2f6;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
 .form-control {
     padding: 5px;
     border: 1px solid black;
@@ -26,15 +34,6 @@
   
 }
 
-/* /main */
-
-.container {
-    background-color: #edf2f6;
-    width: 1000px;
-    margin: auto;
-    text-align: center;
-}
-
 .task {
    border: 0;
    background-color: #17aaf5;
@@ -43,3 +42,8 @@
    color: white;
    border-radius: 5px;
 }
+/* input button */
+/* /main */
+
+
+
