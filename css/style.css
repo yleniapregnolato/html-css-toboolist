@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* header */
@@ -46,5 +47,91 @@
    border-radius: 5px;
 }
 /* /input button */
+/* list */
 
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.precedent {
+    padding-bottom: 30px;
+}
+.task-box {
+    background-color: white;
+    line-height: 35px;
+    padding: 0 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: grey;
+}
+.check {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.done {
+    color: rgb(114, 207, 186);
+    border: 1px solid rgb(114, 207, 186);
+}
+.message {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.editorial {
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: rgb(23, 170, 245);
+    color: white;
+}
+.goals {
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: purple;
+    color: white;
+}
+
+.undone {
+    color: red;
+    border: 1px solid red; 
+}
+.recruiting {
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    background-color: aqua;
+}
+.mobile {
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+}
+.website {
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    background-color: pink;
+}
+.sale {
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    background-color: lightgreen; 
+}
+/* /list */
 /* /main */
